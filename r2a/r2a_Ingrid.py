@@ -1,9 +1,6 @@
 import time
 from r2a.ir2a import IR2A
 from player.parser import *
-from statistics import mean
-from collections import deque
-from typing import Any 
 
 class r2a_Ingrid(IR2A):
     def __init__(self, identifier: int):
