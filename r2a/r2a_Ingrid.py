@@ -26,7 +26,6 @@ class r2a_Ingrid(IR2A):
         self.quality_options = []  # Armazena os níveis de qualidade disponíveis
         self.active_quality_level = 0  # Indica a qualidade de vídeo em uso
         self.segment_size_manager = Adaptive_Segment_Manager(self.max_throughput_records)  # Instância do gerenciador de segmentos
-
     def handle_xml_request(self, msg):
         """Processa a requisição XML e encaminha para o próximo nível.
 
